@@ -5,6 +5,7 @@ This site is for the purpose of tracking my progress in building a suitable lab 
 Both groups will be on one Azure subscription. One resource group will function as the "on-prem" site, and one resource group will function as the failover resource group meant to be in Azure containing the Azure Recovery Vault.
 
 # On-Premise Group
+
 RESOURCE GROUP = SouthCentral
 REGION = South Central US 
 VNET = southvnet / 172.16.0.0/16
@@ -24,6 +25,7 @@ VIRTUAL NETWORK GATEWAY = GatewayToSouthRG
  - VPN
 
 # Failover Group
+
 RESOURCE GROUP = West
 REGION = West Central US
 VNET = westvnet / 192.168.0.0/16
